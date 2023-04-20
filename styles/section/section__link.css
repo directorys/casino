@@ -1,0 +1,17 @@
+.section__link {
+  margin: 0 0 5px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-decoration: var(--underline-color) underline;
+  background: var(--back-gradient-card);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media screen and (max-width: 414px) {
+  .section__link {
+    margin: 0;
+  }
+}

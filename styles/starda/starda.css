@@ -1,0 +1,21 @@
+.starda {
+  padding: 27px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .starda {
+    padding: 52px 0 0;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .starda {
+    padding: 37px 0 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .starda {
+    padding: 22px 0 0;
+  }
+}

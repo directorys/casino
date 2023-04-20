@@ -1,0 +1,6 @@
+.starda__image {
+  width: 14px;
+  height: 14px;
+  object-fit: cover;
+  object-position: center;
+}

@@ -1,0 +1,13 @@
+.starda__products {
+  grid-area: c;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .starda__products {
+    grid-template-columns: repeat(2, auto);
+    gap: 28px;
+  }
+}

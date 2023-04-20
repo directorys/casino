@@ -1,0 +1,30 @@
+.starda__content {
+  padding: 24px 40px 40px;
+  box-sizing: border-box;
+  background: var(--back-color-panel);
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1170px) {
+  .starda__content {
+    padding: 24px 25px 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .starda__content {
+    padding: 24px 54px 40px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .starda__content {
+    padding: 24px 24px 40px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .starda__content {
+    padding: 24px 0 30px;
+  }
+}

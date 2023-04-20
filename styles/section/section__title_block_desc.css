@@ -1,0 +1,24 @@
+.section__title_block_desc {
+  max-width: 404px;
+  line-height: 1.2;
+  background: var(--back-gradient-card);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.section__title_block_desc::after {
+  background: var(--back-gradient-card);
+}
+
+@media screen and (max-width: 1024px) {
+  .section__title_block_desc {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .section__title_block_desc {
+    font-size: 24px;
+  }
+}

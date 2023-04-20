@@ -1,0 +1,4 @@
+.starda__name_type_bold {
+  border-top: 1px solid var(--back-color-panel);
+  font-weight: 500;
+}

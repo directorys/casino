@@ -1,0 +1,7 @@
+.starda__card-link {
+  margin: auto auto 0 auto;
+  padding: 6px 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: var(--back-gradient-card);
+}

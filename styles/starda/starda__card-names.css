@@ -1,0 +1,11 @@
+.starda__card-names {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+@media screen and (max-width: 655px) {
+  .starda__card-names {
+    gap: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+@media screen and (max-width: 786px) {
+  .section__scroll {
+    margin: 0 0 0 -20px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    box-sizing: border-box;
+    width: calc(100vw + 40px) !important;
+    overflow-x: scroll !important;
+  }
+
+  .section__scroll::-webkit-scrollbar {
+    height: 0;
+  }
+}

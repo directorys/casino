@@ -1,0 +1,21 @@
+.section__reviews {
+  min-width: calc(100% + 60px);
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.section__reviews::-webkit-scrollbar {
+  height: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__reviews {
+    min-width: calc(100% + 40px);
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .section__reviews {
+    min-width: calc(100% + 20px);
+  }
+}

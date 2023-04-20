@@ -1,0 +1,11 @@
+.section__chapters {
+  padding: 26px 0 0;
+  display: flex;
+  gap: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__chapters {
+    display: none;
+  }
+}

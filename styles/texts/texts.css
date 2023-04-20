@@ -1,0 +1,13 @@
+.texts {
+  margin: 0 0 80px;
+  padding: 16px 12px 24px;
+  box-sizing: border-box;
+  background: var(--back-color-panel);
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 414px) {
+  .texts {
+    margin: 0 0 60px;
+  }
+}

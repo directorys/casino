@@ -1,0 +1,6 @@
+.texts__paragraphs {
+  padding: 14px 0 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}

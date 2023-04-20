@@ -1,0 +1,27 @@
+.starda__product {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-right: 1px solid var(--back-categories);
+}
+
+.starda__product:nth-child(4n) {
+  border-right: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .starda__product {
+    padding: 0;
+  }
+
+  .starda__product:nth-child(2n) {
+    border-right: none;
+  }
+
+  .starda__product:nth-child(1),
+  .starda__product:nth-child(3n) {
+    padding: 0 15px 0 0;
+  }
+}

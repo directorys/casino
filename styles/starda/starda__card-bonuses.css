@@ -1,0 +1,11 @@
+.starda__card-bonuses {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+@media screen and (max-width: 655px) {
+  .starda__card-bonuses {
+    gap: 20px;
+  }
+}

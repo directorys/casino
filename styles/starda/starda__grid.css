@@ -1,0 +1,28 @@
+.starda__grid {
+  display: grid;
+  grid-template-areas: 
+    "a a a a a b b"
+    "c c c c c b b"
+  ;
+  gap: 35px 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  .starda__grid {
+    grid-template-areas: 
+    "a a a a a a a"
+    "c c c c c b b"
+    "c c c c c b b"
+  ;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .starda__grid {
+    grid-template-areas: 
+      "a"
+      "c"
+      "b"
+    ;
+  }
+}

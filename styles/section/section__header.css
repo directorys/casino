@@ -1,0 +1,11 @@
+.section__header {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media screen and (max-width: 414px) {
+  .section__header {
+    gap: 12px;
+  }
+}

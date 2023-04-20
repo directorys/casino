@@ -1,0 +1,27 @@
+.unity {
+  padding: 60px 0 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .unity {
+    padding: 40px 0 0;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .unity {
+    gap: 59px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .unity {
+    padding: 20px 0 0;
+    gap: 78px;
+  }
+}

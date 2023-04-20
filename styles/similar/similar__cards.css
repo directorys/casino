@@ -1,0 +1,23 @@
+.similar__cards {
+  padding: 20px 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  gap: 58px;
+  overflow-x: scroll;
+}
+
+.similar__cards::-webkit-scrollbar {
+  height: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .similar__cards {
+    gap: 37px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .similar__cards {
+    gap: 17px;
+  }
+}

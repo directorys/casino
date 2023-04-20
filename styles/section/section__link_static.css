@@ -1,0 +1,5 @@
+@media screen and (max-width: 414px) {
+  .section__link_static {
+    margin: 0 0 5px;
+  }
+}

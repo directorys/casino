@@ -1,0 +1,15 @@
+.similar {
+  padding: 28px 0 80px;
+}
+
+@media screen and (max-width: 1024px) {
+  .similar {
+    padding: 60px 0 80px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .similar {
+    padding: 40px 0 80px;
+  }
+}

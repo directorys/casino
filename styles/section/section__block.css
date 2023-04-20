@@ -1,0 +1,12 @@
+.section__block {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px 12px;
+}
+
+@media screen and (max-width: 414px) {
+  .section__block {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

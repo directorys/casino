@@ -1,0 +1,32 @@
+:root {
+  /* Mix */
+  --color-transparent: transparent;
+  --color-stroke-card: #282E45;
+  /* Page */
+  --min-width-page: 320px;
+  --font-family-page: 'Gilroy', Arial, Helvetica, sans-serif;
+  --font-style-page: normal;
+  --font-color-page: #fff;
+  --back-color-page: #090F1E;
+  /* Push */
+  --font-color-push: rgba(255, 255, 255, 0.6);
+  /* Panel */
+  --back-color-panel: #1E283F;
+  /* Button */
+  --back-color-button: rgba(255, 255, 255, 0.2);
+  --border-color-button: rgba(255, 255, 255, 0.25);
+  /* Demo */
+  --back-color-demo: #CE9FFC;
+  --back-categories: rgba(148, 166, 205, 0.26);
+  /* Card */
+  --underline-color: rgba(115, 103, 240, 0.8);
+  --back-gradient-card: linear-gradient(264.69deg, var(--back-color-demo) 4.25%, var(--underline-color) 100%);
+  --border-color-card: rgba(201, 156, 250, 0.4);
+  /* Casino */
+  --back-color-casino: #EFEFEF;
+  --box-shadow-casino: rgba(255, 255, 255, 0.4);
+  /* News */
+  --back-color-news: rgba(0, 0, 0, 0.35);
+  /* Footer */
+  --font-color-footer: rgba(180, 200, 243, 0.4);
+}
