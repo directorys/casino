@@ -1,0 +1,10 @@
+.define {
+  max-width: 637px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .define {
+    max-width: 100%;
+  }
+}

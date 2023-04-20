@@ -1,0 +1,6 @@
+.comment__avatar {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  object-position: center;
+}

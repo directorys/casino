@@ -1,0 +1,5 @@
+.casino__image_bottom {
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}

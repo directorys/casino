@@ -1,0 +1,7 @@
+.control__main_type_info {
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  background: var(--back-categories);
+  border-radius: 16px;
+}

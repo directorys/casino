@@ -1,0 +1,6 @@
+.casino__image {
+  position: absolute;
+  z-index: -2;
+  width: 43%;
+  box-shadow: 2px 2px 14px var(--box-shadow-casino);
+}

@@ -1,0 +1,11 @@
+.comment__users {
+  padding: 6px 8px;
+  box-sizing: border-box;
+  max-width: 133px;
+  display: none;
+  align-items: center;
+  gap: 14px;
+  background: var(--back-categories);
+  border-radius: 10px;
+  cursor: pointer;
+}

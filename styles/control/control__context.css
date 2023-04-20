@@ -1,0 +1,12 @@
+.control__context {
+  padding: 20px 32px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: var(--back-color-panel);
+}
+
+@media screen and (max-width: 786px) {
+  .control__context {
+    padding: 20px 15px !important;
+  }
+}

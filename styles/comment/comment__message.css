@@ -1,0 +1,5 @@
+.comment__message {
+  display: flex;
+  align-self: flex-start;
+  gap: 10px;
+}

@@ -1,0 +1,9 @@
+.control__input {
+  align-self: flex-start;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  border: 2px dashed var(--back-color-panel);
+  border-radius: 5px;
+  outline: none;
+}

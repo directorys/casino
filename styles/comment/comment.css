@@ -1,0 +1,6 @@
+.comment {
+  border-radius: 10px;
+  background: var(--back-color-panel);
+  padding: 10px;
+  box-sizing: border-box;
+}

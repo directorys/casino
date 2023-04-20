@@ -1,0 +1,13 @@
+.casino__images {
+  position: relative;
+  z-index: 0;
+  padding: 65px 0;
+  box-sizing: border-box;
+  border-top-left-radius: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+  .casino__images {
+    padding: 45px 0;
+  }
+}

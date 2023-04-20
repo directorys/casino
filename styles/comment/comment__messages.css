@@ -1,0 +1,7 @@
+.comment__messages {
+  padding: 20px 0 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

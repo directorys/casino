@@ -1,0 +1,8 @@
+.comment__new {
+  display: inline-block;
+  margin: 20px 0 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  color: var(--back-color-demo);
+}

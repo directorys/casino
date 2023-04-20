@@ -1,0 +1,13 @@
+.define__tables {
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  background: var(--back-color-panel);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 414px) {
+  .define__tables {
+    padding: 0 10px;
+  }
+}

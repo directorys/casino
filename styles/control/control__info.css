@@ -1,0 +1,12 @@
+.control__info {
+  display: grid;
+  grid-template-columns: 90px minmax(1px, 1fr);
+  align-items: flex-start;
+  gap: 15px;
+}
+
+@media screen and (max-width: 512px) {
+  .control__info {
+    grid-template-columns: repeat(1, minmax(1px, 1fr))
+  }
+}

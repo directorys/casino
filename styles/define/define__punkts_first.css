@@ -1,0 +1,40 @@
+.define__punkts_first {
+  padding: 40px 0 16px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .define__punkts_first {
+    gap: 0;
+  }
+
+  .define__punkts_first > .define__punkt:nth-child(2) {
+    margin: 41px 0 0;
+    gap: 40px;
+  }
+
+  .define__punkts_first > .define__punkt:nth-child(3) {
+    margin: 20px 0 0;
+    gap: 16px;
+  }
+
+  .define__punkts_first > .define__punkt:nth-child(4) {
+    margin: 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .define__punkts_first {
+    padding: 24px 0 20px;
+  }
+
+  .define__punkts_first > .define__punkt:nth-child(2) {
+    margin: 78px 0 0;
+    gap: 16px;
+  }
+
+  .define__punkts_first > .define__punkt:nth-child(3) {
+    margin: 56px 0 0;
+    gap: 12px;
+  }
+}

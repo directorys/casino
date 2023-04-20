@@ -1,0 +1,7 @@
+.control__submit {
+  align-self: flex-start;
+  padding: 10px;
+  background: var(--back-gradient-card);
+  border-radius: 12px;
+  cursor: pointer;
+}

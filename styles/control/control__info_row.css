@@ -1,0 +1,5 @@
+.control__info_row {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}

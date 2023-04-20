@@ -1,0 +1,9 @@
+.control__item {
+  padding: 10.5px 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 15px;
+  background: var(--back-categories);
+}

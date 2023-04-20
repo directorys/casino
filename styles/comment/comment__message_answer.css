@@ -1,0 +1,8 @@
+.comment__message_answer {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--back-categories);
+}
+
+.comment__message_answer:nth-child(1) {
+  border-top: 1px solid var(--back-categories);
+}

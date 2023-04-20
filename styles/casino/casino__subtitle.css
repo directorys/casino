@@ -1,0 +1,14 @@
+.casino__subtitle {
+  padding: 4px 12px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  background: var(--color-stroke-card);
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .casino__subtitle {
+    padding: 2px 8px;
+  }
+}

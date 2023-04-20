@@ -1,0 +1,19 @@
+.casino__description {
+  padding: 8px 12px 22px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .casino__description {
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .casino__description {
+    padding: 6px 12px;
+  }
+}

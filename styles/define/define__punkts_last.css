@@ -1,0 +1,10 @@
+.define__punkts_last {
+  padding: 20px 0 60px;
+  gap: 16px;
+}
+
+@media screen and (max-width: 414px) {
+  .define__punkts_last {
+    gap: 20px;
+  }
+}

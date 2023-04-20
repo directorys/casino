@@ -1,0 +1,9 @@
+.comment__textarea {
+  width: 100%;
+  padding: 12px 16px;
+  box-sizing: content-box;
+  background: var(--back-categories);
+  border-radius: 10px;
+  resize: none;
+  display: inline;
+}

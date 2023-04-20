@@ -1,0 +1,4 @@
+.control__image {
+  object-fit: contain;
+  object-position: center;
+}

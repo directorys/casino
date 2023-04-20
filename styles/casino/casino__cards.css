@@ -1,0 +1,28 @@
+.casino__cards {
+  padding: 32px 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(160px, 250px));
+  justify-content: space-between;
+  gap: 27px;
+}
+
+@media screen and (max-width: 1024px) {
+  .casino__cards {
+    grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .casino__cards {
+    padding: 24px 0 0 0;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .casino__cards {
+    grid-template-columns: repeat(auto-fill, minmax(132px, 1fr));
+  }
+}
