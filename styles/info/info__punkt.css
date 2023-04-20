@@ -1,0 +1,12 @@
+.info__punkt {
+  padding: 12px 10px;
+  box-sizing: border-box;
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  border-top: 1px solid var(--back-categories);
+}
+
+.info__punkt:nth-child(1) {
+  border-top: none;
+}

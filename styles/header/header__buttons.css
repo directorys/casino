@@ -1,0 +1,19 @@
+.header__buttons {
+  position: absolute;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+@media screen and (max-width: 1170px) {
+  .header__buttons {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .header__buttons {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.head__content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1170px) {
+  .head__content {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .head__content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

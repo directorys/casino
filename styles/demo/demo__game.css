@@ -1,0 +1,14 @@
+.demo__game {
+  position: relative;
+  border-radius: 10px;
+}
+
+.demo__game:nth-child(n+9) {
+  display: none;
+}
+
+@media screen and (max-width: 786px) {
+  .demo__game:nth-child(n+7) {
+    display: none;
+  }
+}

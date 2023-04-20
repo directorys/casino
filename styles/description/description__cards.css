@@ -1,0 +1,11 @@
+.description__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 40px;
+}
+
+@media screen and (max-width: 786px) {
+  .description__cards {
+    grid-template-columns: repeat(1, minmax(280px, 1fr));
+  }
+}

@@ -1,0 +1,20 @@
+.header__items {
+  margin: 0 auto;
+  max-width: 580px;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+@media screen and (max-width: 1170px) {
+  .header__items {
+    max-width: 80%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header__items {
+    gap: 25px;
+  }
+}

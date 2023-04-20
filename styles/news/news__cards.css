@@ -1,0 +1,12 @@
+.news__cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, 230px));
+  justify-content: space-between;
+  gap: 24px 30px;
+}
+
+@media screen and (max-width: 1024px) {
+  .news__cards {
+    grid-template-columns: repeat(auto-fill, minmax(208px, 1fr));
+  }
+}

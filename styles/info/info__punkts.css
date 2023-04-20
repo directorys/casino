@@ -1,0 +1,9 @@
+.info__punkts {
+  padding: 24px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__punkts {
+    display: none;
+  }
+}

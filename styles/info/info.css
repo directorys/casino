@@ -1,0 +1,20 @@
+.info {
+  max-width: 337px;
+  min-width: 337px;
+  display: flex;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    order: -1;
+    justify-content: center;
+    align-self: normal;
+    width: 100%;
+    max-width: 100%;
+    min-width: auto;
+    gap: 30px 60px;
+  }
+}

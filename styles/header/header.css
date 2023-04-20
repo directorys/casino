@@ -1,0 +1,11 @@
+@media screen and (max-width: 1170px) {
+  .header {
+    padding: 12px 0 0;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .header {
+    padding: 33px 0 0;
+  }
+}

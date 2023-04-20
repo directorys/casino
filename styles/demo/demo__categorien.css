@@ -1,0 +1,14 @@
+.demo__categorien {
+  height: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: var(--back-categories);
+  white-space: nowrap;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  cursor: pointer;
+}

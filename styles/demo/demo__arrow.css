@@ -1,0 +1,17 @@
+.demo__arrow {
+  cursor: pointer;
+  height: 32px;
+  padding: 7px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: var(--back-color-demo);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+  .demo__arrow {
+    display: none;
+  }
+}

@@ -1,0 +1,7 @@
+.info__logo {
+  max-width: 116px;
+  width: 116px;
+  min-width: 116px;
+  object-fit: cover;
+  object-position: center;
+}

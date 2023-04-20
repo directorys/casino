@@ -1,0 +1,5 @@
+@media screen and (max-width: 786px) {
+  .demo__categories_first {
+    gap: 34px;
+  }
+}

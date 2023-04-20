@@ -1,0 +1,8 @@
+.info__avatar {
+  width: 140px;
+  min-width: 140px;
+  height: 72px;
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+}

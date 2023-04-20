@@ -1,0 +1,5 @@
+.header__button_type_reg {
+  width: 133px;
+  background: var(--back-gradient-card);
+  box-shadow: 1px 1px 4px var(--border-color-card);
+}

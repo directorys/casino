@@ -1,0 +1,7 @@
+.info__card {
+  align-self: flex-start;
+  max-width: 337px;
+  width: 100%;
+  border-radius: 10px;
+  background: var(--back-color-panel);
+}

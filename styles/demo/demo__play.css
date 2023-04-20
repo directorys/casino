@@ -1,0 +1,7 @@
+.demo__play {
+  max-width: 100%;
+  object-position: center;
+  object-fit: cover;
+  display: block;
+  border-radius: inherit;
+}

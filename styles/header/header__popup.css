@@ -1,0 +1,14 @@
+.header__popup {
+  cursor: pointer;
+  width: 30px;
+  height: 20px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 786px) {
+  .header__popup {
+    display: flex;
+  }
+}

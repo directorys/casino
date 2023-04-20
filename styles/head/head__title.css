@@ -1,0 +1,23 @@
+.head__title {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media screen and (max-width: 1170px) {
+  .head__title {
+    font-size: 43px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .head__title {
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .head__title {
+    font-size: 32px;
+  }
+}

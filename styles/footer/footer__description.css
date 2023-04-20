@@ -1,0 +1,6 @@
+@media screen and (max-width: 1170px) {
+  .footer__description {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+}

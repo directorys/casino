@@ -1,0 +1,12 @@
+.header__panel {
+  padding: 16px 0;
+  width: 100%;
+  background: var(--back-color-panel);
+  border-radius: 16px;
+}
+
+@media screen and (max-width: 786px) {
+  .header__panel {
+    display: none;
+  }
+}

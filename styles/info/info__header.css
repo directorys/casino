@@ -1,0 +1,19 @@
+.info__header {
+  padding: 10px 24px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--back-categories);
+  border-radius: 10px 0px 10px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+  .info__header {
+    padding: 10px 20px;
+    display: flex;
+    background: inherit;
+    border-radius: inherit;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,9 @@
+.info__url {
+  padding: 5px 0;
+  max-width: 167px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: var(--back-gradient-card);
+  border-radius: 5px;
+}

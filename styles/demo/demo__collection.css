@@ -1,0 +1,13 @@
+.demo__collection {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 786px) {
+  .demo__collection {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}

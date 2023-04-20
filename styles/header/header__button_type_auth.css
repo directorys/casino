@@ -1,0 +1,6 @@
+.header__button_type_auth {
+  width: 88px;
+  background: var(--back-color-button);
+  box-shadow: 1px 1px 4px var(--border-color-button);
+  backdrop-filter: blur(20px);
+}

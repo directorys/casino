@@ -1,0 +1,10 @@
+.info__logos {
+  width: 140px;
+  min-width: 140px;
+  height: 72px;
+  background: var(--font-color-page);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
