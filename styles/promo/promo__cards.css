@@ -1,0 +1,13 @@
+.promo__cards {
+  padding: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(240px, 1fr));
+  gap: 22px;
+}
+
+@media screen and (max-width: 1170px) {
+  .promo__cards {
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    gap: 15px;
+  }
+}

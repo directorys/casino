@@ -1,0 +1,10 @@
+.promo__name {
+  text-align: center;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 3px;
+  color: var(--color-transparent);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--font-color-page);
+}

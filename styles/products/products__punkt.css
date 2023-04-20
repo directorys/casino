@@ -1,0 +1,5 @@
+.products__punkt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

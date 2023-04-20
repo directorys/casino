@@ -1,0 +1,13 @@
+.promo__card {
+  padding: 32px 8px 16px;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  background: var(--back-color-panel);
+}
+
+@media screen and (max-width: 1170px) {
+  .promo__card:nth-child(n+4) {
+    display: none;
+  }
+}

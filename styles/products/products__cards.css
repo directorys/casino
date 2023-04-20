@@ -1,0 +1,11 @@
+.products__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 40px;
+}
+
+@media screen and (max-width: 414px) {
+  .products__cards {
+    gap: 30px 40px;
+  }
+}

@@ -1,0 +1,8 @@
+.products__head {
+  padding: 4px 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  background-image: url(../../images/review/head.svg);
+}

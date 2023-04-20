@@ -1,0 +1,15 @@
+.page-back {
+  position: absolute;
+  z-index: -2;
+  top: 300px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1440px) {
+  .page-back {
+    display: none;
+  }
+}

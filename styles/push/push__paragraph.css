@@ -1,0 +1,6 @@
+.push__paragraph {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--font-color-push);
+}

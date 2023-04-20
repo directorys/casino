@@ -1,0 +1,11 @@
+.page-back__name {
+  display: block;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 113px;
+  letter-spacing: 20px;
+  color: var(--color-transparent);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--font-color-page);
+  opacity: .8;
+}

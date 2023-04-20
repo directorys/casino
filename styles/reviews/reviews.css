@@ -1,0 +1,9 @@
+.reviews {
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 414px) {
+  .reviews {
+    padding: 40px 0 24px;
+  }
+}

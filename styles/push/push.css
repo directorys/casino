@@ -1,0 +1,21 @@
+.push {
+  width: 100%;
+  padding: 11px 0 13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+@media screen and (max-width: 1170px) {
+  .push {
+    gap: 8px;
+    border-bottom: 1px solid var(--font-color-push);
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .push {
+    display: none;
+  }
+}

@@ -1,0 +1,6 @@
+.products__pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

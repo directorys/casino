@@ -1,0 +1,28 @@
+body, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+a, button, input, textarea {
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  font-style: inherit;
+}
+
+button, input, textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

@@ -1,0 +1,10 @@
+.page-back__eclipse {
+  position: absolute;
+  top: 0;
+  left: -80px;
+  background: linear-gradient(264.69deg, #CE9FFC 4.25%, rgba(115, 103, 240, 0.8) 100%);
+  filter: blur(60px);
+  transform: matrix(-1, 0, 0, 1, 0, 0) translateY(-10%);
+  width: 161px;
+  height: 161px;
+}

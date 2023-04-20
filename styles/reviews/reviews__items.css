@@ -1,0 +1,7 @@
+.reviews__items {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  min-height: 36px;
+  gap: 20px;
+}

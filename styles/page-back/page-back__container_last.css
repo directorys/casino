@@ -1,0 +1,3 @@
+.page-back__container_last {
+  transform: rotate(90deg) translateY(-100%) translateX(calc(50% + 300px));
+}

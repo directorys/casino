@@ -1,0 +1,5 @@
+.products__card {
+  position: relative;
+  border-radius: 12px;
+  background: var(--back-color-panel);
+}
