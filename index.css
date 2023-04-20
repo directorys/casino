@@ -1,0 +1,316 @@
+/* Fonts */
+@import url(./fonts/Gilroy/font.css);
+
+/* Rules Styles */
+@import url(./styles/root/root.css);
+
+/* Standart Styles */
+@import url(./styles/null/null.css);
+
+/* Page Site */
+@import url(./styles/page/page.css);
+@import url(./styles/page/page_relative.css);
+@import url(./styles/container/container.css);
+
+/* Page-absolute Site */
+@import url(./styles/page-back/page-back.css);
+@import url(./styles/page-back/page-back__container.css);
+@import url(./styles/page-back/page-back__container_first.css);
+@import url(./styles/page-back/page-back__container_last.css);
+@import url(./styles/page-back/page-back__eclipse.css);
+@import url(./styles/page-back/page-back__name.css);
+@import url(./styles/page-back/page-back__name_starda.css);
+@import url(./styles/page-back/page-back__name_none.css);
+
+/* Block Push */
+@import url(./styles/push/push.css);
+@import url(./styles/push/push__paragraph.css);
+@import url(./styles/push/push__paragraph_type_width.css);
+
+/* Header */
+@import url(./styles/header/header.css);
+@import url(./styles/header/header_control.css);
+@import url(./styles/header/header__content.css);
+@import url(./styles/header/header__logo.css);
+@import url(./styles/header/header__buttons.css);
+@import url(./styles/header/header__button.css);
+@import url(./styles/header/header__button_type_reg.css);
+@import url(./styles/header/header__button_type_auth.css);
+@import url(./styles/header/header__panel.css);
+@import url(./styles/header/header__items.css);
+@import url(./styles/header/header__link.css);
+@import url(./styles/header/header__popup.css);
+@import url(./styles/header/header__menu.css);
+
+/* Section */
+@import url(./styles/section/section.css);
+@import url(./styles/section/section__reviews.css);
+@import url(./styles/section/section__overflow.css);
+@import url(./styles/section/section__overflow_first.css);
+@import url(./styles/section/section__overflow_last.css);
+@import url(./styles/section/section__scroll.css);
+@import url(./styles/section/section__header.css);
+@import url(./styles/section/section__block.css);
+@import url(./styles/section/section__block_static.css);
+@import url(./styles/section/section__title.css);
+@import url(./styles/section/section__title_block_desc.css);
+@import url(./styles/section/section__title_block_width.css);
+@import url(./styles/section/section__link.css);
+@import url(./styles/section/section__link_static.css);
+@import url(./styles/section/section__subtitle.css);
+@import url(./styles/section/section__url.css);
+@import url(./styles/section/section__chapters.css);
+@import url(./styles/section/section__chapter.css);
+
+/* Section Head */
+@import url(./styles/head/head.css);
+@import url(./styles/head/head__content.css);
+@import url(./styles/head/head__title.css);
+@import url(./styles/head/head__subtitle.css);
+
+/* Section banner */
+@import url(./styles/banner/banner.css);
+@import url(./styles/banner/banner_first.css);
+@import url(./styles/banner/banner_last.css);
+@import url(./styles/banner/banner__cards.css);
+@import url(./styles/banner/banner__cards_bonus.css);
+@import url(./styles/banner/banner__card.css);
+@import url(./styles/banner/banner__image.css);
+@import url(./styles/banner/banner__circles.css);
+@import url(./styles/banner/banner__circle.css);
+@import url(./styles/banner/banner__circle_active.css);
+
+/* Section Casino */
+@import url(./styles/casino/casino__cards.css);
+@import url(./styles/casino/casino__card.css);
+@import url(./styles/casino/casino__images.css);
+@import url(./styles/casino/casino__image.css);
+@import url(./styles/casino/casino__image_top.css);
+@import url(./styles/casino/casino__image_bottom.css);
+@import url(./styles/casino/casino__name.css);
+@import url(./styles/casino/casino__description.css);
+@import url(./styles/casino/casino__title.css);
+@import url(./styles/casino/casino__subtitles.css);
+@import url(./styles/casino/casino__subtitle.css);
+
+/* Section Demo */
+@import url(./styles/demo/demo__collection.css);
+@import url(./styles/demo/demo__categories.css);
+@import url(./styles/demo/demo__categories_first.css);
+@import url(./styles/demo/demo__categories_last.css);
+@import url(./styles/demo/demo__categorien.css);
+@import url(./styles/demo/demo__arrow.css);
+@import url(./styles/demo/demo__arrow_reverse.css);
+@import url(./styles/demo/demo__image.css);
+@import url(./styles/demo/demo__games.css);
+@import url(./styles/demo/demo__game.css);
+@import url(./styles/demo/demo__play.css);
+
+/* Section Promo */
+@import url(./styles/promo/promo__cards.css);
+@import url(./styles/promo/promo__card.css);
+@import url(./styles/promo/promo__name.css);
+@import url(./styles/promo/promo__paragraph.css);
+@import url(./styles/promo/promo__button.css);
+
+/* Section Description */
+@import url(./styles/description/description.css);
+@import url(./styles/description/description__cards.css);
+@import url(./styles/description/description__card.css);
+@import url(./styles/description/description__paragraph.css);
+@import url(./styles/description/description__link.css);
+
+/* Section Slider */
+@import url(./styles/news/news__cards.css);
+@import url(./styles/news/news__card.css);
+@import url(./styles/news/news__image.css);
+@import url(./styles/news/news__name.css);
+
+/* Section Reviews */
+@import url(./styles/reviews/reviews.css);
+@import url(./styles/reviews/reviews__items.css);
+@import url(./styles/reviews/reviews__item.css);
+@import url(./styles/reviews/reviews__link.css);
+
+/* Section Products */
+@import url(./styles/products/products.css);
+@import url(./styles/products/products_blog.css);
+@import url(./styles/products/products__width.css);
+@import url(./styles/products/products__cards.css);
+@import url(./styles/products/products__card.css);
+@import url(./styles/products/products__images.css);
+@import url(./styles/products/products__image.css);
+@import url(./styles/products/products__avatar.css);
+@import url(./styles/products/products__info.css);
+@import url(./styles/products/products__info_blog.css);
+@import url(./styles/products/products__punkts.css);
+@import url(./styles/products/products__punkt.css);
+@import url(./styles/products/products__head.css);
+@import url(./styles/products/products__name.css);
+@import url(./styles/products/products__blog.css);
+@import url(./styles/products/products__link.css);
+@import url(./styles/products/products__pages.css);
+@import url(./styles/products/products__button.css);
+@import url(./styles/products/products__button_reverse.css);
+@import url(./styles/products/products__numbers.css);
+@import url(./styles/products/products__number.css);
+@import url(./styles/products/products__number_active.css);
+
+/* Section Texts */
+@import url(./styles/texts/texts.css);
+@import url(./styles/texts/texts_card_new.css);
+@import url(./styles/texts/texts__title.css);
+@import url(./styles/texts/texts__paragraphs.css);
+@import url(./styles/texts/texts__paragraph.css);
+@import url(./styles/texts/texts__paragraph_active.css);
+@import url(./styles/texts/texts__paragraph_none.css);
+@import url(./styles/texts/texts__new.css);
+
+/* Section Starda */
+@import url(./styles/starda/starda.css);
+@import url(./styles/starda/starda__content.css);
+@import url(./styles/starda/starda__head.css);
+@import url(./styles/starda/starda__logo.css);
+@import url(./styles/starda/starda__title.css);
+@import url(./styles/starda/starda__grid.css);
+@import url(./styles/starda/starda__categorien.css);
+@import url(./styles/starda/starda__categories.css);
+@import url(./styles/starda/starda__categorie.css);
+@import url(./styles/starda/starda__name.css);
+@import url(./styles/starda/starda__name_type_bold.css);
+@import url(./styles/starda/starda__products.css);
+@import url(./styles/starda/starda__card.css);
+@import url(./styles/starda/starda__card-title.css);
+@import url(./styles/starda/starda__card-info.css);
+@import url(./styles/starda/starda__card-names.css);
+@import url(./styles/starda/starda__card-name.css);
+@import url(./styles/starda/starda__card-bonuses.css);
+@import url(./styles/starda/starda__card-bonus.css);
+@import url(./styles/starda/starda__card-link.css);
+@import url(./styles/starda/starda__product.css);
+@import url(./styles/starda/starda__info.css);
+@import url(./styles/starda/starda__image.css);
+
+/* Section Unity */
+@import url(./styles/unity/unity.css);
+@import url(./styles/unity/unity_blog.css);
+
+/* DIV Define */
+@import url(./styles/define/define.css);
+@import url(./styles/define/define__title.css);
+@import url(./styles/define/define__punkts.css);
+@import url(./styles/define/define__punkts_first.css);
+@import url(./styles/define/define__punkts_last.css);
+@import url(./styles/define/define__punkt.css);
+@import url(./styles/define/define__head.css);
+@import url(./styles/define/define__head_klein.css);
+@import url(./styles/define/define__paragraphs.css);
+@import url(./styles/define/define__paragraphs_circles.css);
+@import url(./styles/define/define__paragraphs_blog.css);
+@import url(./styles/define/define__paragraph.css);
+@import url(./styles/define/define__paragraph_bold.css);
+@import url(./styles/define/define__tables.css);
+@import url(./styles/define/define__table.css);
+
+/* ~DIV Comment */
+@import url(./styles/comment/comment.css);
+@import url(./styles/comment/comment__title.css);
+@import url(./styles/comment/comment__messages.css);
+@import url(./styles/comment/comment__messages_answer.css);
+@import url(./styles/comment/comment__message.css);
+@import url(./styles/comment/comment__message_answer.css);
+@import url(./styles/comment/comment__avatar.css);
+@import url(./styles/comment/comment__info.css);
+@import url(./styles/comment/comment__personal.css);
+@import url(./styles/comment/comment__name.css);
+@import url(./styles/comment/comment__receive.css);
+@import url(./styles/comment/comment__text.css);
+@import url(./styles/comment/comment__record.css);
+@import url(./styles/comment/comment__data.css);
+@import url(./styles/comment/comment__answer.css);
+@import url(./styles/comment/comment__new.css);
+@import url(./styles/comment/comment__writing.css);
+@import url(./styles/comment/comment__users.css);
+@import url(./styles/comment/comment__users_active.css);
+@import url(./styles/comment/comment__letter.css);
+@import url(./styles/comment/comment__close.css);
+@import url(./styles/comment/comment__form.css);
+@import url(./styles/comment/comment__textarea.css);
+@import url(./styles/comment/comment__submit.css);
+@import url(./styles/comment/comment__image.css);
+
+/* DIV Info */
+@import url(./styles/info/info.css);
+@import url(./styles/info/info_blog.css);
+@import url(./styles/info/info__card.css);
+@import url(./styles/info/info__header.css);
+@import url(./styles/info/info__title.css);
+@import url(./styles/info/info__image.css);
+@import url(./styles/info/info__image_active.css);
+@import url(./styles/info/info__punkts.css);
+@import url(./styles/info/info__punkts_active.css);
+@import url(./styles/info/info__punkt.css);
+@import url(./styles/info/info__punkt_blog.css);
+@import url(./styles/info/info__punkt_center.css);
+@import url(./styles/info/info__paragraph.css);
+@import url(./styles/info/info__paragraph_float.css);
+@import url(./styles/info/info__paragraph_width.css);
+@import url(./styles/info/info__paragraph_mains.css);
+@import url(./styles/info/info__paragraph_text.css);
+@import url(./styles/info/info__avatar.css);
+@import url(./styles/info/info__logos.css);
+@import url(./styles/info/info__logo.css);
+@import url(./styles/info/info__content.css);
+@import url(./styles/info/info__url.css);
+
+/* Section Similar */
+@import url(./styles/similar/similar.css);
+@import url(./styles/similar/similar__content.css);
+@import url(./styles/similar/similar__cards.css);
+@import url(./styles/similar/similar__card.css);
+@import url(./styles/similar/similar__images.css);
+@import url(./styles/similar/similar__image.css);
+@import url(./styles/similar/similar__name.css);
+
+/* Footer */
+@import url(./styles/footer/footer.css);
+@import url(./styles/footer/footer__content.css);
+@import url(./styles/footer/footer__contact.css);
+@import url(./styles/footer/footer__logo.css);
+@import url(./styles/footer/footer__info.css);
+@import url(./styles/footer/footer__names.css);
+@import url(./styles/footer/footer__name.css);
+@import url(./styles/footer/footer__name_color.css);
+@import url(./styles/footer/footer__sections.css);
+@import url(./styles/footer/footer__description.css);
+
+/* Control */
+@import url(./styles/control/control.css);
+@import url(./styles/control/control__header.css);
+@import url(./styles/control/control__context.css);
+@import url(./styles/control/control__context_sections.css);
+/* Control-Header - Dashboard*/
+@import url(./styles/control/control__sections.css);
+@import url(./styles/control/control__section.css);
+/* Control-Header - Items */
+@import url(./styles/control/control__categories.css);
+@import url(./styles/control/control__name.css);
+@import url(./styles/control/control__items.css);
+@import url(./styles/control/control__item.css);
+@import url(./styles/control/control__category.css);
+@import url(./styles/control/control__image.css);
+/* Control-Main */
+@import url(./styles/control/control__main.css);
+@import url(./styles/control/control__main_type_info.css);
+@import url(./styles/control/control__title.css);
+@import url(./styles/control/control__cards.css);
+@import url(./styles/control/control__blocks.css);
+@import url(./styles/control/control__chapter.css);
+@import url(./styles/control/control__regular.css);
+@import url(./styles/control/control__bold.css);
+@import url(./styles/control/control__input.css);
+@import url(./styles/control/control__input_file.css);
+@import url(./styles/control/control__file.css);
+@import url(./styles/control/control__info.css);
+@import url(./styles/control/control__info_row.css);
+@import url(./styles/control/control__submit.css);
