@@ -1,0 +1,15 @@
+.banner__circles {
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 14px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (max-width: 786px) {
+  .banner__circles {
+    display: none;
+  }
+}

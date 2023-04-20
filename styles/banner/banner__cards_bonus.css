@@ -1,0 +1,11 @@
+.banner__cards_bonus {
+  max-width: 348px;
+  width: 100%;
+  min-width: 348px;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__cards_bonus {
+    display: none;
+  }
+}

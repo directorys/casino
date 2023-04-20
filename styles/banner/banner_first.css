@@ -1,0 +1,15 @@
+.banner_first {
+  padding: 52px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner_first {
+    padding: 48px 0 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner_first {
+    padding: 24px 0 0;
+  }
+}

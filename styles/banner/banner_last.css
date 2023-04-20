@@ -1,0 +1,15 @@
+.banner_last {
+  padding: 84px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner_last {
+    padding: 72px 0 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner_last {
+    padding: 50px 0 0;
+  }
+}

@@ -1,0 +1,21 @@
+.banner__cards {
+  width: 100%;
+  max-height: 243px;
+  min-height: 243px;
+  display: flex;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .banner__cards {
+    max-height: 210px;
+    min-height: 210px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .banner__cards {
+    max-height: 95px;
+    min-height: 95px;
+  }
+}

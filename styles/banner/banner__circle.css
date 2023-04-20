@@ -1,0 +1,8 @@
+.banner__circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--font-color-page);
+  opacity: .7;
+  transition: all .3s ease;
+}
